@@ -1,0 +1,13 @@
+studentnumber=int(input('enter student number'))
+studentname=input('enter student name')
+studentcourse=input('enter student course')
+sub1=int(input('enter maths marks:'))
+sub2=int(input('enter stat marks:'))
+sub3=int(input('enter computer marks:'))
+sub4=int(input('enter english marks:'))
+sub5=int(input('enter telugu marks:'))
+sub6=int(input('enter hindi marks:'))
+if sub1>=35 and sub2>=35 and sub3>=35 and sub4>=35 and  sub5>=35 and  sub6>=35:
+     print('pass')
+else:
+    print('fail')
